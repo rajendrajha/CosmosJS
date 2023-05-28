@@ -1,0 +1,25 @@
+{
+  "name": "runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "debug/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon CosmosJS/debug/index.js",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "path-browserify": "^1.0.1",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
